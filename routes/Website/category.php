@@ -27,4 +27,7 @@ Route::group(['namespace' => 'Category'], function () {
 	Route::get('subcategory/deleted/{id}', [SubcategoryController::class, 'deleted'])->name('subcategory.deleted');
 	Route::get('subcategory/display/{id}', [SubcategoryController::class, 'display'])->name('subcategory.display');
 
+	// 	Route::get('subcategory/deleted/{id}', [SubcategoryController::class, 'deleted'])->name('subcategory.deleted');
+	// Route::get('subcategory/display/{id}', [SubcategoryController::class, 'display'])->name('subcategory.display');
+
 });
